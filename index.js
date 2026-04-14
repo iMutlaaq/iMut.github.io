@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
-const { evaluate } = require("./backend/evaluator");
+const { evaluate } = require("./evaluator");
 
 const app = express();
 app.use(cors());
